@@ -1,23 +1,23 @@
 git log	prints every commit that has ever been made starting with the most recent. Each commit has an ID, author, date, and a message associated with it 
       (press down arrow to move through list)
-git log –stat	gives statistics regarding which files were affected during a commit used to compare two versions of a file ( +++++++ ‘insertions’ ; ---------- ‘deletions’ )
-      > run $ ’git config  --global color.ui auto’ < to enable color
+git log -stat	gives statistics regarding which files were affected during a commit used to compare two versions of a file ( +++++++ 'insertions' ; ---------- 'deletions' )
+      > run $ 'git config  --global color.ui auto' < to enable color
 git diff	(enter>git diff >copy & paste first ID then second ID>enter>shows the changes made to the two commits, red lines were removed, green lines were added)
 q 	press at any time to quit current output (q)
 git --version	use to see which version, if any, is installed on computer
 git clone 	to clone a repository, run git clone followed by a space and the repository URL
-cd	current directory, use to see where you are or to enter into a directory i.e. $ ‘cd asteroids’ would put you in the ‘asteroids’ directory
+cd	current directory, use to see where you are or to enter into a directory i.e. $ 'cd asteroids' would put you in the 'asteroids' directory
 	add a project folder with cd  
 $ cd simple-git-demo
 git init
-“The git init command adds a local Git repository
- to the project”
+"The git init command adds a local Git repository
+ to the project"
 mkdir version-control   > makes a new folder
 cd version-control   > enters the new folder
-git clone (url’asteroids’)    >clones asteroids/ into new folder
+git clone (url'asteroids')    >clones asteroids/ into new folder
 
-cd asteroids/   > enter into ‘asteroids’
-cd ~   > back to start ‘home directory’
+cd asteroids/   > enter into 'asteroids'
+cd ~   > back to start 'home directory'
 cd version-control   > back into version-control folder
 ls   list contents of directory or folder
 ls -a	list contents of directory or folder but also includes hidden files which begin with (.) i.e. >   .git
@@ -37,14 +37,14 @@ mv Downloads/bash_profile_course .bash_profile
 
 To choose a default editor for commit messages
 
-$ git config --global core.editor “’C:\Program\ Files\Sublime\ Text\ 2\sublime_text.exe’ -n -w”
+$ git config --global core.editor ï¿½ï¿½C:\Program\ Files\Sublime\ Text\ 2\sublime_text.exeï¿½ -n -wï¿½
 
 >To cause Sublime to launch from within git bash<
 $ mv .bash_profile bash_profile  (only use if file is hidden)
 
 >Open .bash profile with editor and add
 
-alias sub1=”C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe”
+alias sub1=ï¿½C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exeï¿½
 
 
 add two more git config commands
