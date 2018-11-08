@@ -24,6 +24,20 @@ ls -a	list contents of directory or folder but also includes hidden files which 
 git init	used to initialize (make) a new empty Git repository, use from within the folder you want to be tracked by Git
 git status	used to show which files have changed
 
+git add	    add file to staging area
+
+git commit -m   adds file to repository>includes commit message<
+
+git checkout master		resolves detached ‘HEAD’
+
+git checkout “branchName” 	allows you to work on branch
+
+git merge		use to add branch to master
+
+git commit --amend -m 	 “New commit message” use to change commit message
+
+git log --graph --oneline master coins >shows easy to follow changes between work on a branch and work on the master<
+
 >Setting up your workspace<
 Download files from instructions >  https://classroom.udacity.com/courses/ud775/lessons/2980038599/concepts/33417185870923
 Then move them to current directory using git-bash terminal
