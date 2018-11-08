@@ -117,3 +117,21 @@ After checking out a commit, the state of all the files in the repository will b
 This is always true. A commit saves a snapshot of all files in the repository at the time the commit was made, so checking out an earlier commit will result in all the files being reverted to their state at the time the commit was made. That is, the files will be in a consistent state.
 
 
+>Branches<
+
+$ git branch	identifies if branches or only master 
+*master
+
+$ git branch (name)	creates new branch
+
+$ git branch	identifies if branches or only master
+(name)
+*master
+
+$ git branch (name)
+Switched to branch (name)
+
+$ git branch	identifies if branches of only master
+*(name)
+Master
+
