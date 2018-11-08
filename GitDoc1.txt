@@ -40,7 +40,9 @@ git log --graph --oneline master coins >shows easy to follow changes between wor
 
 >Setting up your workspace<
 Download files from instructions >  https://classroom.udacity.com/courses/ud775/lessons/2980038599/concepts/33417185870923
+
 Then move them to current directory using git-bash terminal
+
 mv Downloads/git-completion.bash.txt git-completion.bash
 
 mv Downloads/git-prompt.sh git-prompt.sh
@@ -51,24 +53,20 @@ mv Downloads/bash_profile_course .bash_profile
 
 To choose a default editor for commit messages
 
-$ git config --global core.editor ��C:\Program\ Files\Sublime\ Text\ 2\sublime_text.exe� -n -w�
+$ git config --global core.editor "'C:\Program\ Files\Sublime\ Text\ 2\sublime_text.exe' -n -w"
 
 >To cause Sublime to launch from within git bash<
 $ mv .bash_profile bash_profile  (only use if file is hidden)
 
 >Open .bash profile with editor and add
 
-alias sub1=�C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe�
-
+alias sub1="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"
 
 add two more git config commands
 
 $ git config --global push.default upstream
 
 $ git config --global merge.conflictstyle diff3
-
-
-
 
 
 >more commands<
